@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+	background-color : #8C8056;
+	width : 450px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+ 
+nav  ul {
+	 list-style-type: none;
+	 padding:0;
+	 text-align: center;
+}
+ 
+nav li {
+  display: inline;
+   margin-right: 10px;
+
+ 
+
+}
+nav  a {
+  text-decoration: none;
+  color: #002046;
+  font-weight: bold;
+  padding: 0.5em; 
+}
+ 
+ 
+nav > a:hover {
+  background-color: #002046;
+  color: #8C8056;
+}
+
+
+
+.hero {
+    background-image: url('hero/Cryptocurrency.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: block;
+    height: 600px;
+    margin: 0 auto;
+}
+
+
+.hero-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #af996a;
+    bottom: 0;
+    left: 0;
+    
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #F1A023;
+    bottom: 0;
+    left: 0;
+}
+
+.buy-now-button {
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4C3410;
+    color: #F1A023;
+    border: none;
+    cursor: pointer;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+
+}
+
+.left-featue-container {
+    background-color: #8C8056;
+    display: inline-block;
+    margin: 10 px;
+    padding: 20px;
+   
+}
+.right-featue-container {
+    background-color: #8C8056;
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+   
+}
+
+footer  {
+    background: url(footer/footer-example.png) ;
+    color: #8C8056;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
